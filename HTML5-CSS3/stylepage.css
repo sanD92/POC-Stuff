@@ -1,0 +1,82 @@
+<style>
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+header{
+	 color:black;
+	 background-color: white;
+	 text-align: center;
+}
+nav ul li {
+    align:centre;
+    display: inline;
+    margin: 5px;
+	color:black;
+
+}
+nav ul li a{
+	color:#4C4C4C;
+	font-weight:bold;
+}
+.nevigation{
+ text-align: center;
+}
+.content .description{
+     
+	 float:right;
+	 text-align: left;
+	
+}
+.content {
+     
+	border: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right:50px;
+    margin-left: 200px;
+    background-color: white;
+
+}
+.description{
+    border: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+
+.button1 {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-weight: bold;
+}	 
+.button2 {
+    background-color:powdergrey;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-weight: bold;
+}	
+footer{
+     padding: 10px;
+	 color:black;
+	 background-color: white;
+	 text-align: center;
+	 }
+</style>
