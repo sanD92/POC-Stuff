@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KYC </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initail-scale=1 ">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+	.blue {
+		color: lightblue;
+		}
+	.big-checkbox
+		{
+		zoom:2;
+		}	
+	span.tab-space
+		{
+		padding-left:5em;
+		}
+</style>
+</head>
+<body>
+ <div class="container">
+ <div class="col col-xs-5">
+	<br>
+    <div class="row">
+	 <strong>Company: A Safe Place</strong><strong><span class="tab-space">Proposal Id:101809</span></strong>
+	</div>
+	<br>
+	<div class="row">
+	<form>
+		<div class="form-group">
+		<label for="productIdentifier" >*Product Identifer</label>
+        <select class="form-control" id="productIdentifier">
+			<option></option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+        </select>
+		</div>
+		<div class="form-group">
+				<label class="checkbox">Spin-off of Existing Customer</label>
+				<input type="checkbox" class="big-checkbox" id="chkbox1" value=""> 
+		</div>
+		<div class="form-group">
+				<label class="checkbox ">NOMD Client</label>
+				<input type="checkbox" id="chkbox2" value="" class="big-checkbox"> 
+		</div>
+		<div class="form-group">
+			<label for="legalName">*Company Legal Name</label>
+			<input type="text" class="form-control" id="legalName" value="A Safe Place">
+			<p>(Please correct if necessry)</p>
+		</div>
+	</form>
+    </div>
+ </div>
+ <div class="col col-xs-5">
+   	<!--colmn2-->
+	<div class="row">
+	<br>
+	<br>
+	<br>
+	</div>
+	<form>
+	<div class="form-group">	
+		<label for="verticalDescription">Vertical Description</label>
+        <select class="form-control" id="verticalDescription">
+			<option></option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+        </select>
+    </div>
+	<div class="form-group">
+			<label for="originalName">Original Company Name</label>
+			<input type="text" class="form-control" id="originalName">
+	</div>
+	<br><br><br>
+	<div class="form-group">
+			<label for="dbaName">dba/Familiar Company Name</label>
+			<input type="text" class="form-control" id="dbaName" value="A Safe Place">
+			<p>(Please correct if necessry)</p>
+	</div>
+	</form>
+ </div>
+ <div class="col col-xs-2">
+  <!--Column3-->
+ </div>
+ </div>
+		<div class="page-header">
+		</div>
+		<!-- For Contact Information-->
+<div class="container">
+	<strong><h4>Contact</h4><strong>
+	<br>
+	<div class="col col-xs-5">
+		<div class="row">
+			<form>
+				<div class="form-group">
+					<label for="address1">*Address1</label>
+					<input type="text" class="form-control" id="address1">
+				</div>
+				
+				<div class="form-group">
+					<label for="address2">Address2</label>
+					<input type="text" class="form-control" id="address2">
+				</div>
+				<div class="form-group">
+					<label for="address3">Address3</label>
+					<input type="text" class="form-control" id="address3">
+				</div>	
+				<div class="form-group">
+					<label for="city">*City</label>
+					<input type="text" class="form-control" id="city">
+				</div>	
+				<div class="form-group">
+					<label for="country" >*Country</label>
+					<select class="form-control" id="country">
+						<option></option>
+						<option>IND</option>
+						<option>UK</option>
+						<option>US</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="state" >*State/Province</label>
+					<select class="form-control" id="state">
+						<option></option>
+						<option>MH</option>
+						<option>GA</option>
+						<option>KA</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="phone">*Phone</label>
+					<input type="text" class="form-control" id="phone">
+				</div>	
+				
+			</form>
+		</div>
+	</div>
+	<div class="col col-xs-5">	
+			<form>
+				<div class="form-group">
+					<label for="zipCode">*Zip/Postal</label>
+					<input type="text" class="form-control" id="zipCode">
+				</div>
+				<div class="form-group">
+					<label for="fax">Fax</label>
+					<input type="text" class="form-control" id="fax">
+				</div>
+			</form>	
+	</div>
+	<div class="col col-xs-2">
+		<!--Empty column-->
+	</div>
+</div>
+ <hr>
+ <div class="container">
+	<!--<strong><h4>Other Information</h4><strong>-->
+	<div class="col col-xs-5">
+		<div class="row">
+			<form>
+				<div class="form-group">
+					<label for="stateIncorp">*State of Incorporation/Formation</label> 
+					<select class="form-control" id="stateIncorp">
+						<option></option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+				</div>
+				<div class="form-group">
+				<label for="sic">*SIC/NAICS</label>
+				<input type="text" class="form-control" id="sic" value="">
+				</div>
+				<div class="form-group">
+					<label for="region">*Region</label> 
+					<select class="form-control" id="region">
+						<option></option>
+						<option>R1</option>
+						<option>R2</option>
+						<option>R3</option>
+					</select>
+					<p>(Please correct if necessry)</p>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+	<div class="col col-xs-5">
+		<div class="row">
+		</div>
+		<form>
+			<div class="form-group">
+				<label for="taxId">*Federal Tax ID</label>
+				<input type="text" class="form-control" id="taxId" value="">
+			</div>
+			<div class="form-group">
+				<label for="fee">*Setup Fee</label>
+				<input type="text" class="form-control" id="fee" value="">
+			</div>
+			<div class="form-group">
+				<label class="checkbox">Workers Comp Crave Out</label>
+				<input type="checkbox" id="crave" value="" class="big-checkbox"> 
+			</div>
+			
+		</form>
+	</div>
+	<div class="col col-xs-2">
+	<!--Empty column-->
+	</div>
+ </div>
+ <hr>
+ <!-- Contract Signed by -->
+ <div class="container">
+ <strong><h4>Contract Signed by </h4><strong>
+ <br>
+	<div class="col col-xs-5">
+		<div class="row">
+			<form>
+				<div class="form-group">
+					<label for="name">*Name</label>
+					<input type="text" class="form-control" id="name" value="">
+				</div>
+				<div class="form-group">
+					<label for="email">*E-mail Address</label>
+					<input type="email" class="form-control" id="email" value="">
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="col col-xs-5">
+		<div class="row">
+		</div>
+		<div class="form-group">
+			<label for="title">*Title</label>
+			<input type="text" class="form-control" id="title" value="">
+		</div>
+		<div class="form-group">
+			<label for="date">*Date</label>
+			<input type="date" class="form-control glyphicon  glyphicon-calendar blue" id="date" >
+			<!--<span class="glyphicon  glyphicon-calendar "></span>-->
+		</div>
+	</div>
+	<div class="col col-xs-2">
+	<!--Empty Column 3-->
+	</div>
+ </div>
+ <br><br>
+ <div class="container">
+ 
+    <!--<div id='toolbar'>
+		<div class='wrapper text-center'>
+			<div class="btn-group">
+				<button type="button" class="btn ">Close</button>
+			</div>
+			<div class="btn-group">
+				<button type="submit" class="btn btn-warning">Submit</button>
+			</div>
+		</div>
+	</div>-->
+	<!--<div class="col col-xs-5">
+		<div class='wrapper text-right'>
+			<button type="button" class="btn">Close</button>
+		</div>
+	</div>
+	<div class="col col-xs-5">
+	<button type="submit" class="btn btn-warning">Submit</button>
+	</div>
+	<div class="col col-xs-2">
+	<!--Empty Column 3
+	</div>-->
+	<div class="col col-xs-10">
+		<div class='wrapper text-right'>
+			<div id='toolbar'>
+				<div class='wrapper text-center'>
+					<div class="btn-group">
+					<button type="button" class="btn ">Close</button>
+				</div>
+				<div class="btn-group">
+					<button type="submit" class="btn btn-warning">Submit</button>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="col col-xs-2">
+	</div>
+ </div>
+ 
+
+ 
+ <br><br>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
